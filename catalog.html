@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset = "UTF-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/bootstrap-select.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/mobile.css">
+        <title>ADIDAS</title>
+    </head>
+    <body class="home_page">
+
+        <!--Шапка сайта-->
+        <section class="header">
+            <div class="container">
+                <div class="row">
+                    <header>
+                        <div class="header_container">
+                            <div class="logo text-center">
+                                <a href="/">
+                                    <span class="logo_big">SPORT</span>
+                                    <span class="logo_small">group</span>
+                                </a>
+                            </div>
+                            <div class="block_navigation">
+                                <a href="#menu" id="toggle" class=""><div class="toggle_menu"><span></span></div></a>
+                                <a href="javascript:void(0)" class="search_show"></a>
+                                <div class="block_search">
+                                    <form action="/">
+                                        <input type="text" name="search" value="" placeholder="Поиск товаров" class="search_label">
+                                        <input type="submit" name="image" class="search_bth" value="">
+                                    </form>
+                                    <!--живой поиск-->
+                                    <div class="smart_search">
+                                        <h5>Товары по запросу "НОВ"</h5>
+                                        <div class="smart_search_item">
+                                            <div class="product_image">
+                                                <a href="/"><img src="images/pr3_small.jpg"></a>
+                                            </div>
+                                            <div class="product_info">
+                                                <div class="product_name">Пуховик ID96</div>
+                                                <div class="product_type">Originals</div>
+                                                <div class="product_price">
+                                                    <span class="price">95 руб.</span>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                        <div class="smart_search_item">
+                                            <div class="product_image">
+                                                <a href="/"><img src="images/pr3_small.jpg"></a>
+                                            </div>
+                                            <div class="product_info">
+                                                <div class="product_name">Пуховик ID96</div>
+                                                <div class="product_type">Originals</div>
+                                                <div class="product_price">
+                                                    <span class="price">95 руб.</span>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                    <!--конец живой поиск-->
+                                </div>
+                                <div class="block_menu">
+                                    <div class="menu_pd">
+                                        <div class="menu">
+                                            <ul class="menu_list">
+                                                <li>
+                                                    <div class="dropdown item_block">
+                                                        <button class="list_drop menu_item" type="button">Мужчины<span class="caret"></span></button>
+                                                        <div class="main_drop dropdown-menu">
+                                                            <div class="container drop_bg">
+                                                                <div class="child_drop">
+                                                                    <button class="child_btn" type="button">Обувь<span class="caret"></span></button>
+                                                                    <ul class="child_menu">
+                                                                        <li><a href="/">Ботинки</a></li>
+                                                                        <li><a href="/">Кросовки</a></li>
+                                                                        <li><a href="/">Высокие кроссовки</a></li>
+                                                                        <li><a href="/">Кеды</a></li>
+                                                                        <li><a href="/">Футбольные бутсы</a></li>
+                                                                        <li><a href="/">Сланцы и сандалии</a></li>
+                                                                        <li><a href="/">Зимняя обувь </a></li>
+                                                                        <li><a href="/">Ботинки для сноуборда </a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="child_drop">
+                                                                    <button class="child_btn" type="button">Одежда<span class="caret"></span></button>
+                                                                    <ul class="child_menu">
+                                                                        <li><a href="/">Куртки</a></li>
+                                                                        <li><a href="/">Пуховики</a></li>
+                                                                        <li><a href="/">Ветровки</a></li>
+                                                                        <li><a href="/">Толстовки</a></li>
+                                                                        <li><a href="/">Футболки и майки</a></li>
+                                                                        <li><a href="/">Поло</a></li>
+                                                                        <li><a href="/">Брюки</a></li>
+                                                                        <li><a href="/">Шорты</a></li>
+                                                                        <li><a href="/">Компрессионная одежда</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="child_drop">
+                                                                    <button class="child_btn" type="button">Аксессуары<span class="caret"></span></button>
+                                                                    <ul class="child_menu">
+                                                                        <li><a href="/">Сумки и рюкзаки</a></li>
+                                                                        <li><a href="/">Шапки</a></li>
+                                                                        <li><a href="/">Перчатки</a></li>
+                                                                        <li><a href="/">Шарфы</a></li>
+                                                                        <li><a href="/">Носки</a></li>
+                                                                        <li><a href="/">Аксессуары для тренировок</a></li>
+                                                                        <li><a href="/">Часы </a></li>
+                                                                        <li><a href="/">Кепки</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="child_drop">
+                                                                    <button class="child_btn" type="button">Виды спорта<span class="caret"></span></button>
+                                                                    <ul class="child_menu">
+                                                                        <li><a href="/">Футбол</a></li>
+                                                                        <li><a href="/">Бег</a></li>
+                                                                        <li><a href="/">Фитнес</a></li>
+                                                                        <li><a href="/">Outdoor</a></li>
+                                                                        <li><a href="/">Баскетбол</a></li>
+                                                                        <li><a href="/">Волейбол</a></li>
+                                                                        <li><a href="/">Теннис</a></li>
+                                                                        <li><a href="/">Тяжелая атлетика</a></li>
+                                                                        <li><a href="/">Легкая атлетика</a></li>
+                                                                        <li><a href="/">Плавание</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="child_drop">
+                                                                    <button class="child_btn" type="button">Актуальный товар<span class="caret"></span></button>
+                                                                    <ul class="child_menu">
+                                                                        <li><a href="/"><img src="images/actual_men.jpg"></a></li>
+                                                                        <li><a href="/">Брюки<br>Climalite workout</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="dropdown item_block">
+                                                        <button class="list_drop menu_item" type="button">Женщины<span class="caret"></span></button>
+                                                        <div class="main_drop dropdown-menu">
+                                                            <div class="container drop_bg">
+                                                                <div class="child_drop">
+                                                                    <button class="child_btn" type="button">Обувь<span class="caret"></span></button>
+                                                                    <ul class="child_menu">
+                                                                        <li><a href="/">Ботинки</a></li>
+                                                                        <li><a href="/">Кросовки</a></li>
+                                                                        <li><a href="/">Высокие кроссовки</a></li>
+                                                                        <li><a href="/">Кеды</a></li>
+                                                                        <li><a href="/">Сланцы и сандалии</a></li>
+                                                                        <li><a href="/">Зимняя обувь </a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="child_drop">
+                                                                    <button class="child_btn" type="button">Одежда<span class="caret"></span></button>
+                                                                    <ul class="child_menu">
+                                                                        <li><a href="/">Куртки</a></li>
+                                                                        <li><a href="/">Жилетки</a></li>
+                                                                        <li><a href="/">Толстовки</a></li>
+                                                                        <li><a href="/">Футболки и майки</a></li>
+                                                                        <li><a href="/">Спортивные бра-топы</a></li>
+                                                                        <li><a href="/">Брюки</a></li>
+                                                                        <li><a href="/">Леггинсы</a></li>
+                                                                        <li><a href="/">Спортивные костюмы</a></li>
+                                                                        <li><a href="/">Зимняя одежда</a></li>
+                                                                        <li><a href="/">Компрессионная одежда</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="child_drop">
+                                                                    <button class="child_btn" type="button">Аксессуары<span class="caret"></span></button>
+                                                                    <ul class="child_menu">
+                                                                        <li><a href="/">Сумки и рюкзаки</a></li>
+                                                                        <li><a href="/">Шапки</a></li>
+                                                                        <li><a href="/">Перчатки</a></li>
+                                                                        <li><a href="/">Шарфы</a></li>
+                                                                        <li><a href="/">Носки</a></li>
+                                                                        <li><a href="/">Аксессуары для тренировок</a></li>
+                                                                        <li><a href="/">Часы </a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="child_drop">
+                                                                    <button class="child_btn" type="button">Виды спорта<span class="caret"></span></button>
+                                                                    <ul class="child_menu">
+                                                                        <li><a href="/">Фитнес</a></li>
+                                                                        <li><a href="/">Бег</a></li>
+                                                                        <li><a href="/">Теннис</a></li>
+                                                                        <li><a href="/">Outdoor</a></li>
+                                                                        <li><a href="/">Йога</a></li>
+                                                                        <li><a href="/">Плавание</a></li>
+                                                                        <li><a href="/">Волейбол</a></li>
+                                                                        <li><a href="/">Футбол</a></li>
+                                                                        <li><a href="/">Легкая атлетика</a></li>
+                                                                        <li><a href="/">Тяжелая атлетика</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="child_drop">
+                                                                    <button class="child_btn" type="button">Актуальный товар<span class="caret"></span></button>
+                                                                    <ul class="child_menu">
+                                                                        <li><a href="/"><img src="images/actual_women.jpg"></a></li>
+                                                                        <li><a href="/">Джемпер Sequencials<br>Wraparound</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="dropdown item_block sports_menu">
+                                                        <button class="list_drop menu_item" type="button">Дети<span class="caret"></span></button>
+                                                        <div class="main_drop dropdown-menu">
+                                                            <div class="container drop_bg">
+                                                                <div class="child_drop">
+                                                                    <button class="child_btn" type="button">Мальчики<span class="caret"></span></button>
+                                                                    <ul class="child_menu">
+                                                                        <li><a href="/">Обувь</a></li>
+                                                                        <li><a href="/">Одежда</a></li>
+                                                                        <li><a href="/">Аксессуары</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="child_drop">
+                                                                    <button class="child_btn" type="button">Девочки<span class="caret"></span></button>
+                                                                    <ul class="child_menu">
+                                                                        <li><a href="/">Обувь</a></li>
+                                                                        <li><a href="/">Одежда</a></li>
+                                                                        <li><a href="/">Аксессуары</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="child_drop">
+                                                                    <button class="child_btn" type="button">Малыши<span class="caret"></span></button>
+                                                                    <ul class="child_menu">
+                                                                        <li><a href="/">Обувь</a></li>
+                                                                        <li><a href="/">Одежда</a></li>
+                                                                        <li><a href="/">Аксессуары</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="child_drop">
+                                                                    <button class="child_btn" type="button">Виды спорта<span class="caret"></span></button>
+                                                                    <ul class="child_menu">
+                                                                        <li><a href="/">Физкультура</a></li>
+                                                                        <li><a href="/">Футбол</a></li>
+                                                                        <li><a href="/">Плавание</a></li>
+                                                                        <li><a href="/">Outdoor</a></li>
+                                                                        <li><a href="/">Бег</a></li>
+                                                                        <li><a href="/">Теннис</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="dropdown item_block sports_menu">
+                                                        <button class="list_drop menu_item" type="button">Виды спорта<span class="caret"></span></button>
+                                                        <div class="main_drop dropdown-menu">
+                                                            <div class="container drop_bg">
+                                                                <div class="child_drop">
+                                                                    <button class="child_btn" type="button">Футбол<span class="caret"></span></button>
+                                                                    <ul class="child_menu">
+                                                                        <li><a href="/">Обувь</a></li>
+                                                                        <li><a href="/">Одежда</a></li>
+                                                                        <li><a href="/">Аксессуары</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="child_drop">
+                                                                    <button class="child_btn" type="button">Бег<span class="caret"></span></button>
+                                                                    <ul class="child_menu">
+                                                                        <li><a href="/">Обувь</a></li>
+                                                                        <li><a href="/">Одежда</a></li>
+                                                                        <li><a href="/">Аксессуары</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="child_drop">
+                                                                    <button class="child_btn" type="button">Тренинг<span class="caret"></span></button>
+                                                                    <ul class="child_menu">
+                                                                        <li><a href="/">Обувь</a></li>
+                                                                        <li><a href="/">Одежда</a></li>
+                                                                        <li><a href="/">Аксессуары</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="child_drop">
+                                                                    <button class="child_btn" type="button">Outdoor<span class="caret"></span></button>
+                                                                    <ul class="child_menu">
+                                                                        <li><a href="/">Обувь</a></li>
+                                                                        <li><a href="/">Одежда</a></li>
+                                                                        <li><a href="/">Аксессуары</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="child_drop">
+                                                                    <button class="child_btn" type="button">Сноубординг<span class="caret"></span></button>
+                                                                    <ul class="child_menu">
+                                                                        <li><a href="/">Обувь</a></li>
+                                                                        <li><a href="/">Одежда</a></li>
+                                                                        <li><a href="/">Аксессуары</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="child_drop">
+                                                                    <button class="child_btn" type="button">Другое<span class="caret"></span></button>
+                                                                    <ul class="child_menu">
+                                                                        <li><a href="/">Беговые лыжи</a></li>
+                                                                        <li><a href="/">Скейтбординг</a></li>
+                                                                        <li><a href="/">Йога</a></li>
+                                                                        <li><a href="/">Баскетбол</a></li>
+                                                                        <li><a href="/">Плавание</a></li>
+                                                                        <li><a href="/">Теннис</a></li>
+                                                                        <li><a href="/">Волейбол</a></li>
+                                                                        <li><a href="/">Тяжелая атлетика</a></li>
+                                                                        <li><a href="/">Легкая атлетика</a></li>
+                                                                        <li><a href="/">Регби</a></li>
+                                                                        <li><a href="/">Велоспорт</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="last_item">
+                                                    <div class="dropdown item_block sports_menu">
+                                                        <button class="list_drop menu_item" type="button">бренды<span class="caret"></span></button>
+                                                        <div class="main_drop dropdown-menu">
+                                                            <div class="container drop_bg">
+                                                                <div class="child_drop">
+                                                                    <button class="child_btn" type="button">Adidas<span class="caret"></span></button>
+                                                                    <ul class="child_menu">
+                                                                        <li><a href="/">Мужская одежда</a></li>
+                                                                        <li><a href="/">Женская одежда</a></li>
+                                                                        <li><a href="/">Детская одежда</a></li>
+                                                                        <li><a href="/">Обувь</a></li>
+                                                                        <li><a href="/">Аксессуары</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="child_drop">
+                                                                    <button class="child_btn" type="button">Reebok<span class="caret"></span></button>
+                                                                    <ul class="child_menu">
+                                                                        <li><a href="/">Мужская одежда</a></li>
+                                                                        <li><a href="/">Женская одежда</a></li>
+                                                                        <li><a href="/">Детская одежда</a></li>
+                                                                        <li><a href="/">Обувь</a></li>
+                                                                        <li><a href="/">Аксессуары</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="child_drop">
+                                                                    <button class="child_btn" type="button">Nike<span class="caret"></span></button>
+                                                                    <ul class="child_menu">
+                                                                        <li><a href="/">Мужская одежда</a></li>
+                                                                        <li><a href="/">Женская одежда</a></li>
+                                                                        <li><a href="/">Детская одежда</a></li>
+                                                                        <li><a href="/">Обувь</a></li>
+                                                                        <li><a href="/">Аксессуары</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <div class="menu_user">
+                                                <img src="images/icon_user.png">
+                                                <span>Личный кабинет</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block_user">
+                                <div class="block_account">
+                                    <a href="/">Вход в личный кабинет</a>
+                                </div>
+                                <div class="block_cart"><!--добавить класс для пустой корзины "block_cart_no"-->
+                                    <a href="/">Корзина товаров пуста</a>
+                                    <span class="count_cart">0</span>
+                                </div>
+                            </div>
+                            <div class="block_information">
+                                <div class="phone">+375(17)394-40-39</div>
+                                <div class="phone">+375(17)394-41-39</div>
+                                <div class="list_info">
+                                    <div class="list_shop"><a href="/">К списку магазинов</div></a>
+                                    <div class="list_shop sity">
+                                        <div class="dropdown">
+                                            <button class="list_drop list_city" type="button" data-toggle="dropdown">Выбор региона<span class="caret"></span></button>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="/">Минск и Минская область</a></li>
+                                                <li><a href="/">Брест или Брестская область </a></li>
+                                                <li><a href="/">Витебск или Витебская область</a></li>
+                                                <li><a href="/">Гомель или Гомельская область</a></li>
+                                                <li><a href="/">Гродно или Гродненская область</a></li>
+                                                <li><a href="/">Могилев или Могилевская область</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </header>
+                </div>
+            </div>
+        </section>
+
+        <!--Слайдер. Класс ".page" оставлять на всех страница даже если слайдера нет, в нем отступ сверху на мобильно версии-->
+        <section class="page"></section>
+
+
+        <!--Каталог-->
+        <section class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="content_bg">
+                        <div class="breadcrumbs">
+                            <ul>
+                                <li class="back"><a href="/">Назад</a></li>
+                                <li><a href="/"><span>/</span>Главная</a></li>
+                                <li class="last_br"><a href="/"><span>/</span>Акции</a></li>
+                            </ul>
+                        </div>
+                        <div class="page_name">
+                            <h1>Товары по акции</h1>
+                            <span>(15 товаров)</span>
+                        </div>
+                        <div class="block_content">					
+                            <div class="left_sidebar">
+                                <div class="filter">
+                                    <form action="#">
+                                        <div class="filter_top">
+                                            <span>ФИЛЬТРЫ</span>
+                                            <input type="reset" value="Сбросить все" class="reset">
+                                        </div>
+                                        <div class="filter_mobile">
+                                            <button class="filter_button_mobile" type="button">Фильтр<span class="caret"></span></button>
+                                            <div class="filter_list">
+                                                <div class="filter_drop open">
+                                                    <button class="filter_button" type="button">Бренды<span class="caret"></span></button>
+                                                    <div class="filter_menu">
+                                                        <div class="filter_item">
+                                                            <input type="checkbox" class="checkbox_f" id="check-1">
+                                                            <label for="check-1">
+                                                                Adidas
+                                                            </label>
+                                                        </div>
+                                                        <div class="filter_item">
+                                                            <input type="checkbox" class="checkbox_f" id="check-2">
+                                                            <label for="check-2">
+                                                                Reebok
+                                                            </label>
+                                                        </div>
+                                                        <div class="filter_item">
+                                                            <input type="checkbox" class="checkbox_f" id="check-3">
+                                                            <label for="check-3">
+                                                                Nike
+                                                            </label>
+                                                        </div>												
+                                                    </div>
+                                                </div>
+                                                <div class="filter_drop open">
+                                                    <button class="filter_button" type="button">Коллекции<span class="caret"></span></button>
+                                                    <div class="filter_menu">
+                                                        <div class="filter_item">
+                                                            <input type="checkbox" class="checkbox_f" id="check-4">
+                                                            <label for="check-4">
+                                                                Originals
+                                                            </label>
+                                                        </div>
+                                                        <div class="filter_item">
+                                                            <input type="checkbox" class="checkbox_f" id="check-5">
+                                                            <label for="check-5">
+                                                                Adidas Neo
+                                                            </label>
+                                                        </div>
+                                                        <div class="filter_item">
+                                                            <input type="checkbox" class="checkbox_f" id="check-6">
+                                                            <label for="check-6">
+                                                                Stella Maccarthney
+                                                            </label>
+                                                        </div>												
+                                                    </div>
+                                                </div>
+                                                <div class="expand">
+                                                    <a href="javascript:void(0)" data="0">Свернуть</a>
+                                                </div>
+                                                <div class="filter_price">
+                                                    <button class="button_price" type="button">Цена<span class="caret"></span></button>
+                                                    <div class="price_range">
+                                                        <input type="number" class="price_min" value="100">
+                                                        <span>-</span>
+                                                        <input type="number" class="price_max" value="500">
+                                                        <a href="javascript:void(0)" class="price_send"></a>
+                                                    </div>
+                                                    <div class="slider_price"></div>
+                                                </div>
+                                                <div class="filter_size">
+                                                    <button class="button_size" type="button">Размер<span class="caret"></span></button>
+                                                    <a href="javascript:void(0)" class="sizes_show">Таблица размеров</a>
+                                                    <div class="sizes">
+                                                        <table>
+                                                            <tr>
+                                                                <td>
+                                                                    <input type="checkbox" class="checkbox_s" id="check-7">
+                                                                    <label for="check-7"><span>36</span></label>
+                                                                </td>
+                                                                <td>
+                                                                    <input type="checkbox" class="checkbox_s" id="check-8">
+                                                                    <label for="check-8"><span>36.5</span></label>
+                                                                </td>
+                                                                <td>
+                                                                    <input type="checkbox" class="checkbox_s" id="check-9">
+                                                                    <label for="check-9"><span>37</span></label>
+                                                                </td>
+                                                                <td>
+                                                                    <input type="checkbox" class="checkbox_s" id="check-10">
+                                                                    <label for="check-10"><span>37.5</span></label>
+                                                                </td>
+                                                                <td>
+                                                                    <input type="checkbox" class="checkbox_s" id="check-11">
+                                                                    <label for="check-11"><span>38</span></label>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <input type="checkbox" class="checkbox_s" id="check-12">
+                                                                    <label for="check-12"><span>38.5</span></label>
+                                                                </td>
+                                                                <td>
+                                                                    <input type="checkbox" class="checkbox_s" id="check-13">
+                                                                    <label for="check-13"><span>39</span></label>
+                                                                </td>
+                                                                <td>
+                                                                    <input type="checkbox" class="checkbox_s" id="check-14">
+                                                                    <label for="check-14"><span>39.5</span></label>
+                                                                </td>
+                                                                <td>
+                                                                    <input type="checkbox" class="checkbox_s" id="check-15">
+                                                                    <label for="check-15"><span>40</span></label>
+                                                                </td>
+                                                                <td>
+                                                                    <input type="checkbox" class="checkbox_s" id="check-16">
+                                                                    <label for="check-16"><span>40.5</span></label>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <input type="checkbox" class="checkbox_s" id="check-17">
+                                                                    <label for="check-17"><span>41</span></label>
+                                                                </td>
+                                                                <td>
+                                                                    <input type="checkbox" class="checkbox_s" id="check-18">
+                                                                    <label for="check-18"><span>41.5</span></label>
+                                                                </td>
+                                                                <td>
+                                                                    <input type="checkbox" class="checkbox_s" id="check-19">
+                                                                    <label for="check-19"><span>42</span></label>
+                                                                </td>
+                                                                <td>
+                                                                    <input type="checkbox" class="checkbox_s" id="check-22">
+                                                                    <label for="check-20"><span>42.5</span></label>
+                                                                </td>
+                                                                <td>
+                                                                    <input type="checkbox" class="checkbox_s" id="check-21">
+                                                                    <label for="check-21"><span>43</span></label>
+                                                                </td>
+                                                            </tr>
+                                                        </table>												
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="content_wrap">
+                                <div class="sort_block">
+                                    <div class="dropdown sort_select">
+                                        <select class="selectpicker" title="Сортировать по">
+                                            <option>Цена по возростанию</option>
+                                            <option>Цена по убыванию</option>
+                                            <option>Сначала новое</option>
+                                            <option>Сначала популярное</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="pagination">
+                                        <a href="#" class="page_prev"></a>
+                                        <a href="#" class="page_next"></a>
+                                    </div>
+
+                                    <div class="dropdown sort_select select_page">
+                                        <span class="page_text">Страница</span>
+                                        <div class="page_r">
+                                            <select class="selectpicker">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                            </select>
+                                        </div>
+                                        <span class="count_dn">из 53</span>
+                                    </div>
+
+                                    <div class="page_count">
+                                        <span>Товаров</span>
+                                        <a href="/">50</a>
+                                        <a href="/">100</a>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="product_list">
+                                    <div class="product_item">
+                                        <div class="sticker_novinka"><span>Новинка</span></div>
+                                        <a href="/" class="izbr"></a>
+                                        <div class="product">
+                                            <div class="product_image">
+                                                <a href="/"><img src="images/product1.jpg"></a>
+                                            </div>
+                                            <div class="product_info">
+                                                <div class="product_name">Пуховик ID96</div>
+                                                <div class="product_type">Originals</div>
+                                                <div class="product_price">
+                                                    <span class="price">95 руб.</span>
+                                                    <span class="price_old">135 руб.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product_item">
+                                        <div class="sticker_novinka"><span>Новинка</span></div>
+                                        <a href="/" class="izbr"></a>
+                                        <div class="product">
+                                            <div class="product_image">
+                                                <a href="/"><img src="images/product1.jpg"></a>
+                                            </div>
+                                            <div class="product_info">
+                                                <div class="product_name">Кроссовки<br>Cloudfoam Flyer</div>
+                                                <div class="product_type">Adidas Neo</div>
+                                                <div class="product_price">
+                                                    <span class="price">110 руб.</span>
+                                                    <span class="price_old">190 руб.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product_item">
+                                        <div class="sticker_novinka"><span>Новинка</span></div>
+                                        <a href="/" class="izbr"></a>
+                                        <div class="product">
+                                            <div class="product_image">
+                                                <a href="/"><img src="images/product1.jpg"></a>
+                                            </div>
+                                            <div class="product_info">
+                                                <div class="product_name">Пуховик ID96</div>
+                                                <div class="product_type">Originals</div>
+                                                <div class="product_price">
+                                                    <span class="price">95 руб.</span>
+                                                    <span class="price_old">135 руб.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product_item">
+                                        <div class="sticker_novinka"><span>Новинка</span></div>
+                                        <div class="product">
+                                            <div class="product_image">
+                                                <a href="/"><img src="images/product1.jpg"></a>
+                                            </div>
+                                            <div class="product_info">
+                                                <div class="product_name">Пуховик ID96</div>
+                                                <div class="product_type">Originals</div>
+                                                <div class="product_price">
+                                                    <span class="price">95 руб.</span>
+                                                    <span class="price_old">135 руб.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product_item">
+                                        <div class="sticker_novinka"><span>Новинка</span></div>
+                                        <div class="product">
+                                            <div class="product_image">
+                                                <a href="/"><img src="images/product1.jpg"></a>
+                                            </div>
+                                            <div class="product_info">
+                                                <div class="product_name">Пуховик ID96</div>
+                                                <div class="product_type">Originals</div>
+                                                <div class="product_price">
+                                                    <span class="price">95 руб.</span>
+                                                    <span class="price_old">135 руб.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product_item">
+                                        <div class="sticker_novinka"><span>Новинка</span></div>
+                                        <div class="product">
+                                            <div class="product_image">
+                                                <a href="/"><img src="images/product1.jpg"></a>
+                                            </div>
+                                            <div class="product_info">
+                                                <div class="product_name">Пуховик ID96</div>
+                                                <div class="product_type">Originals</div>
+                                                <div class="product_price">
+                                                    <span class="price">95 руб.</span>
+                                                    <span class="price_old">135 руб.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product_item">
+                                        <div class="sticker_novinka"><span>Новинка</span></div>
+                                        <div class="product">
+                                            <div class="product_image">
+                                                <a href="/"><img src="images/product1.jpg"></a>
+                                            </div>
+                                            <div class="product_info">
+                                                <div class="product_name">Пуховик ID96</div>
+                                                <div class="product_type">Originals</div>
+                                                <div class="product_price">
+                                                    <span class="price">95 руб.</span>
+                                                    <span class="price_old">135 руб.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product_item">
+                                        <div class="sticker_novinka"><span>Новинка</span></div>
+                                        <div class="product">
+                                            <div class="product_image">
+                                                <a href="/"><img src="images/product1.jpg"></a>
+                                            </div>
+                                            <div class="product_info">
+                                                <div class="product_name">Пуховик ID96</div>
+                                                <div class="product_type">Originals</div>
+                                                <div class="product_price">
+                                                    <span class="price">95 руб.</span>
+                                                    <span class="price_old">135 руб.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="sort_block bottom_sort">
+                                    <div class="dropdown sort_select">
+                                        <select class="selectpicker" title="Сортировать по">
+                                            <option>Сортировать по</option>
+                                            <option>Цена по возростанию</option>
+                                            <option>Цена по убыванию</option>
+                                            <option>Сначала новое</option>
+                                            <option>Сначала популярное</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="pagination">
+                                        <a href="#" class="page_prev"></a>
+                                        <a href="#" class="page_next"></a>
+                                    </div>
+
+                                    <div class="dropdown sort_select select_page">
+                                        <span class="page_text">Страница</span>
+                                        <div class="page_r">
+                                            <select class="selectpicker">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                            </select>
+                                        </div>
+                                        <span class="count_dn">из 53</span>
+                                    </div>
+
+                                    <div class="page_count">
+                                        <span>Товаров</span>
+                                        <a href="/">50</a>
+                                        <a href="/">100</a>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>	
+
+        <!--Футер-->
+        <section class="footer_block">
+            <div class="container">
+                <div class="row">
+                    <footer>
+                        <div class="footer_container">
+                            <div class="footer_top">
+                                <div class="mailing_text">
+                                    Подпишитесь на новости и актуальные <br>предложения нашего магазина
+                                </div>
+                                <div class="footer_mailing">
+                                    <form action="#">
+                                        <input type="email" name="email" class="mailing" placeholder="Введите email">
+                                        <input type="submit" value="Подписаться" class="mailing_btn">
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="footer_bottom">
+                                <div class="footer_menu fot_menu1">
+                                    <ul>
+                                        <li class="top_list">Помощь</li>
+                                        <li><a href="/">Оформление заказа</a></li>
+                                        <li><a href="/">Доставка и оплата</a></li>
+                                        <li><a href="/">Возврат</a></li>
+                                        <li class="pr_dn"><a href="/">Программа лояльности</a></li>
+                                    </ul>
+                                </div>
+                                <div class="footer_menu fot_menu2">
+                                    <ul>
+                                        <li class="top_list">Информация</li>
+                                        <li><a href="/">Программа лояльности</a></li>
+                                        <li><a href="/">Таблица размеров</a></li>
+                                        <li><a href="/">Уход за товаром</a></li>
+                                    </ul>
+                                </div>
+                                <div class="footer_menu fot_menu3">
+                                    <ul>
+                                        <li class="top_list">О компании</li>
+                                        <li><a href="/">О нас</a></li>
+                                        <li><a href="/">Вакансии</a></li>
+                                        <li><a href="/">История</a></li>
+                                    </ul>
+                                </div>
+                                <div class="footer_menu fot_menu4">
+                                    <ul>
+                                        <li class="top_list">Контакты</li>
+                                        <li>+375(17)394-40-39</li>
+                                        <li>+375(17)394-41-39</li>
+                                        <li><a href="mailto:info@sport.by">info@sport.by</a></li>
+                                        <li class="list_magaz"><a href="/">К списку магазинов</a></li>
+                                        <li class="social_block">
+                                            <a href="/"><img src="images/soc_inst.png"></a>
+                                            <a href="/"><img src="images/soc_vk.png"></a>
+                                            <a href="/"><img src="images/soc_facebook.png"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer_pay">
+                                <p>Принимаем к оплате</p>
+                                <div class="pay">
+                                    <a href="/"><img src="images/icon_visa.png"></a>
+                                    <a href="/"><img src="images/icon_master.png"></a>
+                                    <a href="/"><img src="images/icon_maestro.png"></a>
+                                    <a href="/"><img src="images/icon_erip.png"></a>
+                                    <a href="/"><img src="images/icon_webpay.png"></a>
+                                </div>
+                            </div>
+                            <div class="footer_info_block">
+                                <div class="footer_info">
+                                    Владелец сайта ООО «Ритейл» зарегестрирован в Торговом реестре РБ 01.01.2010
+                                    <br>
+                                    Гос. регистрация №444444444, 01.10.2010, Мингорисполком
+                                </div>
+                                <div class="footer_copyright">
+                                    Ⓒ Copywright Name.by 2016-2017.  Все права защищены.
+                                </div>
+                            </div>
+                            <div class="region">
+                                <div class="list_shop sity">
+                                    <div class="dropdown">
+                                        <button class="list_drop list_city" type="button" data-toggle="dropdown">Выбор региона<span class="caret"></span></button>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="/">Минск и Минская область</a></li>
+                                            <li><a href="/">Брест или Брестская область</a></li>
+                                            <li><a href="/">Витебск или Витебская область</a></li>
+                                            <li><a href="/">Гомель или Гомельская область</a></li>
+                                            <li><a href="/">Гродно или Гродненская область</a></li>
+                                            <li><a href="/">Могилев или Могилевская область</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </section>
+
+        <!--Наверх-->
+        <a href="javascript:void(0)" class="backtotop">
+            <img src="images/to_top.png">
+            <span>НАВЕРХ</span>
+        </a>
+
+        <div class="popup_wrap">
+            <div class="popup_block">
+                <div class="popup_body">
+                    <div class="poput_text">Товар добавлен в избранное</div>
+                    <div class="poput_btn"><a href="javascrip:void(0)" class="continue">продолжить покупки</a></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/jquery-1.11.2.min.js"></script>
+        <script src="js/jquery-ui/jquery-ui.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/bootstrap-select.js"></script>
+
+        <script src="assets/owlcarousel/owl.carousel.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
